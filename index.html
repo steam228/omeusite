@@ -1,41 +1,89 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-<title>HTML Tutorial</title>
 
-<link rel="stylesheet" href="css/style.css">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-
-
 <body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>O Site da Rita</h4>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      </div>
+    </div>
+    <div class="row">
 
-<h2>Capitulo 2</h2>
+      <div class="two columns">
+        <h4>O Site da Rita</h4>
 
-<p>'m baby tofu tumblr crucifix, flannel cardigan sustainable 8-bit. DIY whatever dreamcatcher PBR&B chambray butcher. Organic shabby chic craft beer tbh, actually four dollar toast pour-over jianbing vegan blue bottle fingerstache. Hell of lyft four loko umami etsy mumblecore williamsburg blue bottle pabst gastropub retro vice.
-  Jianbing kale chips before they sold out PBR&B, palo santo twee fingerstache green juice hashtag kinfolk.
-</p>
+      </div>
+      <div class="ten columns">
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+        <img src="images/blabla.jpg" alt="Girl in a jacket" width="100%">
+      </div>
+    </div>
 
-<p>Gochujang master cleanse drinking vinegar wolf meggings.<br>
-  Ramps whatever umami, enamel pin selfies cold-pressed blog normcore try-hard artisan sartorial.
-  Try-hard subway tile slow-carb, fixie hammock palo santo man braid adaptogen readymade. Stumptown lumbersexual readymade, bushwick swag intelligentsia DIY vice irony organic hot chicken fam typewriter. Air plant cray food truck distillery gochujang tumeric jianbing succulents.
-</p>
+    <!-- The above form looks like this -->
+<form>
+  <div class="row">
+    <div class="six columns">
+      <label for="exampleEmailInput">Your email</label>
+      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+    </div>
+    <div class="six columns">
+      <label for="exampleRecipientInput">Reason for contacting</label>
+      <select class="u-full-width" id="exampleRecipientInput">
+        <option value="Option 1">Questions</option>
+        <option value="Option 2">Admiration</option>
+        <option value="Option 3">Can I get your number?</option>
+      </select>
+    </div>
+  </div>
+  <label for="exampleMessage">Message</label>
+  <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+  <label class="example-send-yourself-copy">
+    <input type="checkbox">
+    <span class="label-body">Send a copy to yourself</span>
+  </label>
+  <input class="button-primary" type="submit" value="Submit">
+</form>
 
-  <ol>
-   <li>Coffee</li>
-   <li>Tea</li>
-   <li>Milk</li>
- </ol>
+<!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
 
- <ul>
-   <li>Coffee</li>
-   <li>Tea</li>
-   <li>Milk</li>
- </ul>
+<!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+  </div>
 
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>

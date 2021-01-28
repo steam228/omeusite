@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+
+
+body {
+  color: red; }
+
+h4 {
+  font-family: 'Potta One', cursive;
+}
